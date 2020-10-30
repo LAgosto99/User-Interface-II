@@ -1,1 +1,198 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%; 
+}
+
+.head {
+background-color: hotpink;
+color: black;
+width: 100%;
+padding: 2%;
+
+}
+.head h1 {
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 7rem;
+margin: 2%, 0%, 4%, 1%;
+text-align: center;
+}
+html{
+  font-size:62.5%;
+}
+body{
+  line-height:2;
+  font-size:3rem;
+  font-family: 'Impact', sans-serif;
+}
+/*stay*/
+.text p{
+  text-align:justify;
+  font-size: 3rem;
+}
+
+.head header nav a {
+  font-size: 1.25rem;
+  margin: 90px;
+  border: 4px solid black;
+  padding: 20px 50px 30px 75px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  background: white;
+ 
+}
+
+h2 {
+padding-top: 5%;
+padding-bottom: 5%;
+font-size: 5rem;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+
+.info a {
+  font-size: 2rem;
+  margin: 0 0;
+  border: 10px solid black;
+  padding: 1px 20px;
+  display: inline-block;
+  color: black;
+  background: white;
+}
+
+
+
+
+
+.contone {
+  display: flex;
+}
+
+.contone div {
+  margin: 25px;
+  width: 200%;
+ }
+
+.info p {
+  font-size: 1.75rem;
+   font-family: "Times New Roman", Times, serif;
+
+}
+
+.sectiontwo div {
+    display: inline-block;
+     margin-left: 2%;
+    width: 32%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.sectiontwo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+ 
+}
+
+.sectiontwo div {
+  width: 100%;
+}
+.sectionthree {
+  display: flex;
+  
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.sectionthree div {
+  width: 100%;
+}
+
+
+div.pictures {
+  margin: 50px;
+  width: 250px;
+}
+
+div.pictures:hover {
+  border: 10px solid #000;
+}
+
+div.pictures img {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+div.title {
+  padding: 1px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* footer */
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    background-color:#33F7FF;
+    color: #FFFFFF;
+    margin: auto 0;
+    flex-wrap: wrap;
+}
+
+.facebook {
+    background-color: #FF338C;
+}
+
+.instagram{
+    background-color:#FF338C;
+}
+
+.twitter {
+    background-color:#FF338C;
+}
+
+.contact-me {
+    background-color:#FF338C ;
+}
+
+.facebook:hover {
+  border: 10px solid #000;
+}
+
+.contact-me:hover {
+  border: 10px solid #000;
+}
+
+.twitter:hover {
+  border: 10px solid #000;
+}
+
+.instagram:hover {
+  border: 10px solid #000;
+}
